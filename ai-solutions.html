@@ -1,0 +1,1662 @@
+<!DOCTYPE html>
+
+<html lang="en"><head>
+  <title>AI Solutions Catalog | Deist Technologies</title>
+  <meta name="description" content="Explore 24+ sovereign AI modules, enterprise cognitive pipelines, and intelligent automated workflows engineered for scale."/>
+  <meta property="og:title" content="AI Solutions Catalog | Deist Technologies"/>
+  <meta property="og:description" content="Explore 24+ sovereign AI modules, enterprise cognitive pipelines, and intelligent automated workflows engineered for scale."/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<meta content="web_standard" name="shell-type"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600;700&amp;family=Space+Grotesk:wght@500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+    tailwind.config = {
+      darkMode: "class",
+      theme: {
+        extend: {
+          colors: {
+            "surface-bright": "#fbf9f4",
+            "tertiary-fixed": "#ffdbd0",
+            "error": "#ba1a1a",
+            "background": "#EDEAE4",
+            "secondary-fixed-dim": "#c8c6c8",
+            "surface-container": "#E8E4DD",
+            "secondary": "#5f5e60",
+            "error-container": "#ffdad6",
+            "on-surface": "#1b1c19",
+            "primary-container": "#dd3114",
+            "on-secondary-fixed": "#1b1b1d",
+            "on-secondary": "#ffffff",
+            "on-primary": "#ffffff",
+            "surface-dim": "#dcdad5",
+            "on-secondary-fixed-variant": "#474649",
+            "outline-variant": "#e5bdb6",
+            "on-tertiary-fixed-variant": "#7f2a0d",
+            "surface-container-highest": "#dedad2",
+            "outline": "#916f69",
+            "secondary-fixed": "#e4e2e4",
+            "on-tertiary": "#ffffff",
+            "surface-variant": "#e4e2dd",
+            "primary-fixed-dim": "#ffb4a5",
+            "surface-container-high": "#eae8e3",
+            "inverse-surface": "#1E1E1C",
+            "surface-container-low": "#F4F1EB",
+            "on-tertiary-container": "#fffbff",
+            "on-secondary-container": "#636264",
+            "secondary-container": "#e2dfe1",
+            "on-tertiary-fixed": "#3a0b00",
+            "inverse-on-surface": "#f3f1eb",
+            "surface": "#F0EEEA",
+            "on-primary-fixed": "#3f0400",
+            "surface-tint": "#b61a00",
+            "on-primary-container": "#fffbff",
+            "tertiary-container": "#bb5636",
+            "on-primary-fixed-variant": "#8e1200",
+            "primary-fixed": "#ffdad3",
+            "tertiary-fixed-dim": "#ffb59e",
+            "primary": "#191918",
+            "brand-red": "#b61a00",
+            "on-error": "#ffffff",
+            "inverse-primary": "#ffb4a5",
+            "surface-container-lowest": "#FFFFFF",
+            "on-background": "#1b1c19",
+            "on-surface-variant": "#5c403a",
+            "on-error-container": "#93000a",
+            "tertiary": "#9c3f20"
+          },
+          borderRadius: {
+            "DEFAULT": "1rem",
+            "lg": "1.5rem",
+            "xl": "2rem",
+            "2xl": "2.5rem",
+            "full": "9999px"
+          },
+          fontFamily: {
+            "headline-sm": ["Space Grotesk", "sans-serif"],
+            "headline-md": ["Space Grotesk", "sans-serif"],
+            "headline-xl": ["Space Grotesk", "sans-serif"],
+            "display-lg": ["Space Grotesk", "sans-serif"],
+            "label-pill": ["Space Grotesk", "sans-serif"],
+            "label-numeric": ["Space Grotesk", "sans-serif"],
+            "body-sm": ["Geist", "sans-serif"],
+            "body-md": ["Geist", "sans-serif"],
+            "body-lg": ["Geist", "sans-serif"]
+          }
+        }
+      }
+    };
+  </script>
+<style>
+    @layer base {
+      html, body {
+        margin: 0;
+        padding: 0;
+        background-color: #EDEAE4;
+      }
+      body { overscroll-behavior: none; }
+      ::-webkit-scrollbar { display: none; }
+    }
+
+    /* Claymorphic 3D Tactile Utility Classes */
+    .clay-card {
+      background: #FFFFFF;
+      border-radius: 24px;
+      box-shadow:
+        0 18px 36px -10px rgba(50, 45, 38, 0.08),
+        0 8px 16px -6px rgba(50, 45, 38, 0.04),
+        inset 2px 2px 3px rgba(255, 255, 255, 0.95),
+        inset -2px -2px 4px rgba(40, 35, 30, 0.04);
+      border: 1px solid rgba(255, 255, 255, 0.7);
+      transition: all 0.25s cubic-bezier(0.34, 1.56, 0.64, 1);
+    }
+    .clay-card:hover {
+      transform: translateY(-4px) scale(1.008);
+      box-shadow:
+        0 26px 44px -12px rgba(50, 45, 38, 0.12),
+        0 12px 22px -6px rgba(50, 45, 38, 0.06),
+        inset 2.5px 2.5px 3.5px rgba(255, 255, 255, 0.98),
+        inset -2.5px -2.5px 5px rgba(40, 35, 30, 0.05);
+    }
+
+    .clay-pill-active {
+      background: #1B1C19;
+      color: #FFFFFF;
+      box-shadow:
+        0 10px 20px -4px rgba(0, 0, 0, 0.25),
+        inset 1.5px 1.5px 2px rgba(255, 255, 255, 0.25),
+        inset -1.5px -1.5px 3px rgba(0, 0, 0, 0.5);
+    }
+
+    .clay-pill-idle {
+      background: #FAF7F2;
+      color: #1B1C19;
+      box-shadow:
+        0 6px 12px -3px rgba(60, 50, 40, 0.06),
+        inset 1.5px 1.5px 2px rgba(255, 255, 255, 0.95),
+        inset -1.5px -1.5px 3px rgba(0, 0, 0, 0.035);
+      border: 1px solid rgba(255, 255, 255, 0.8);
+      transition: all 0.2s ease;
+    }
+    .clay-pill-idle:hover {
+      transform: translateY(-1.5px);
+      background: #FFFFFF;
+      box-shadow:
+        0 8px 16px -4px rgba(60, 50, 40, 0.09),
+        inset 1.5px 1.5px 2px rgba(255, 255, 255, 1),
+        inset -1.5px -1.5px 3px rgba(0, 0, 0, 0.04);
+    }
+
+    .clay-track-debossed {
+      background: #E3DFD7;
+      box-shadow:
+        inset 3px 3px 6px rgba(40, 35, 30, 0.1),
+        inset -3px -3px 6px rgba(255, 255, 255, 0.85);
+      border: 1px solid rgba(0, 0, 0, 0.03);
+    }
+
+    .clay-search {
+      background: #FAF7F2;
+      box-shadow:
+        inset 2px 2px 4px rgba(40, 35, 30, 0.08),
+        inset -2px -2px 4px rgba(255, 255, 255, 0.95),
+        0 8px 18px -4px rgba(60, 50, 40, 0.05);
+      border: 1px solid rgba(255, 255, 255, 0.7);
+    }
+    .clay-search:focus-within {
+      box-shadow:
+        inset 2.5px 2.5px 5px rgba(40, 35, 30, 0.12),
+        inset -2px -2px 4px rgba(255, 255, 255, 0.95),
+        0 0 0 3px rgba(182, 26, 0, 0.2);
+    }
+
+    .clay-btn-squeeze {
+      background: linear-gradient(180deg, #2A2B27 0%, #171815 100%);
+      color: #FFFFFF;
+      box-shadow:
+        0 10px 18px -4px rgba(25, 25, 24, 0.35),
+        inset 2px 2px 3px rgba(255, 255, 255, 0.25),
+        inset -2px -2px 4px rgba(0, 0, 0, 0.6);
+      transition: all 0.18s cubic-bezier(0.34, 1.56, 0.64, 1);
+    }
+    .clay-btn-squeeze:hover {
+      transform: translateY(-1.5px);
+      box-shadow:
+        0 14px 22px -5px rgba(25, 25, 24, 0.45),
+        inset 2px 2px 3px rgba(255, 255, 255, 0.35),
+        inset -2px -2px 4px rgba(0, 0, 0, 0.7);
+    }
+    .clay-btn-squeeze:active {
+      transform: translateY(1.5px) scale(0.98);
+      box-shadow:
+        0 4px 8px -2px rgba(25, 25, 24, 0.3),
+        inset 3px 3px 5px rgba(0, 0, 0, 0.7),
+        inset -1px -1px 2px rgba(255, 255, 255, 0.15);
+    }
+
+    .clay-tag {
+      background: #F1ECE3;
+      box-shadow:
+        inset 1px 1px 2px rgba(255, 255, 255, 0.95),
+        inset -1px -1px 2px rgba(40, 35, 30, 0.06),
+        0 2px 4px rgba(50, 45, 38, 0.03);
+    }
+
+    .clay-icon-tile {
+      background: linear-gradient(135deg, #2E2F2B 0%, #151613 100%);
+      box-shadow:
+        0 8px 16px -4px rgba(0, 0, 0, 0.25),
+        inset 1.5px 1.5px 2px rgba(255, 255, 255, 0.3),
+        inset -1.5px -1.5px 3px rgba(0, 0, 0, 0.7);
+    }
+
+    /* Obsidian Bespoke Card (Card #23) */
+    .clay-obsidian {
+      background: radial-gradient(circle at 80% 20%, #292A26 0%, #141512 100%);
+      border-radius: 24px;
+      box-shadow:
+        0 24px 44px -10px rgba(0, 0, 0, 0.45),
+        inset 2px 2px 3px rgba(255, 255, 255, 0.15),
+        inset -2px -2px 4px rgba(0, 0, 0, 0.8);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      transition: all 0.25s cubic-bezier(0.34, 1.56, 0.64, 1);
+    }
+    .clay-obsidian:hover {
+      transform: translateY(-4px) scale(1.008);
+      box-shadow:
+        0 30px 52px -12px rgba(0, 0, 0, 0.55),
+        inset 2.5px 2.5px 3.5px rgba(255, 255, 255, 0.22),
+        inset -2.5px -2.5px 5px rgba(0, 0, 0, 0.9);
+    }
+    .clay-obsidian-btn {
+      background: #FAF7F2;
+      color: #171815;
+      box-shadow:
+        0 10px 18px -4px rgba(0, 0, 0, 0.3),
+        inset 2px 2px 3px rgba(255, 255, 255, 1),
+        inset -2px -2px 3px rgba(0, 0, 0, 0.08);
+      transition: all 0.18s cubic-bezier(0.34, 1.56, 0.64, 1);
+    }
+    .clay-obsidian-btn:hover {
+      background: #FFFFFF;
+      transform: translateY(-1.5px);
+      box-shadow:
+        0 14px 22px -5px rgba(0, 0, 0, 0.35),
+        inset 2px 2px 3px rgba(255, 255, 255, 1);
+    }
+    .clay-obsidian-btn:active {
+      transform: translateY(1.5px) scale(0.98);
+      box-shadow:
+        inset 3px 3px 5px rgba(0, 0, 0, 0.25),
+        inset -1px -1px 2px rgba(255, 255, 255, 0.9);
+    }
+
+    .clay-dock {
+      background: rgba(255, 255, 255, 0.88);
+      backdrop-filter: blur(20px);
+      box-shadow:
+        0 18px 40px -10px rgba(50, 45, 38, 0.12),
+        0 6px 14px -3px rgba(50, 45, 38, 0.05),
+        inset 2px 2px 3px rgba(255, 255, 255, 0.98),
+        inset -2px -2px 3px rgba(40, 35, 30, 0.03);
+      border: 1px solid rgba(255, 255, 255, 0.8);
+    }
+  </style>
+
+  <!-- Smooth Scroll & Motion Styles -->
+  <link rel="stylesheet" href="vendor/lenis.css"/>
+  <link rel="stylesheet" href="styles/motion.css"/>
+</head>
+<body class="bg-surface font-body-md text-on-surface antialiased selection:bg-brand-red selection:text-white">
+  <!-- Ambient Orange Halftone Background -->
+  <div class="bg-ambient-pattern" aria-hidden="true"></div>
+
+<!-- Claymorphic Floating Header -->
+<header class="fixed top-0 left-0 right-0 z-50 pt-4 px-6">
+<div class="h-20 max-w-[1280px] mx-auto px-6 clay-dock rounded-full flex items-center justify-between">
+<a class="flex items-center gap-3 group" data-path="home" href="index.html">
+<div class="relative flex items-center justify-center w-10 h-10 rounded-2xl clay-icon-tile text-on-primary">
+<span class="font-headline-sm text-headline-sm font-semibold tracking-tighter">D</span>
+<span class="absolute -bottom-0.5 -right-0.5 w-2.5 h-2.5 rounded-full bg-brand-red ring-2 ring-white"></span>
+</div>
+<span class="font-headline-sm text-headline-sm text-on-surface font-semibold tracking-tight">Deist Technologies</span>
+</a>
+<nav class="hidden xl:flex items-center gap-6" data-active-classes="transition-colors text-on-surface font-medium underline underline-offset-8 decoration-secondary decoration-2">
+<a data-path="home" href="index.html" class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-colors">Home</a>
+<a data-path="about" href="about.html" class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-colors">About</a>
+<a data-path="ai-solutions" href="ai-solutions.html" class="transition-colors text-on-surface font-medium underline underline-offset-8 decoration-secondary decoration-2" aria-current="page">AI Solutions</a>
+<a data-path="social-growth" href="social-growth.html" class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-colors">Social Growth</a>
+<a data-path="ai-pricing" href="ai-pricing.html" class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-colors">AI Pricing</a>
+<a data-path="social-packages" href="social-packages.html" class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-colors">Social Packages</a>
+<a data-path="contact" href="contact.html" class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-colors">Contact</a>
+</nav>
+<div class="flex items-center gap-4">
+<div class="hidden sm:flex items-center p-1 rounded-full clay-track-debossed">
+<button class="px-3.5 py-1 rounded-full clay-pill-idle font-label-numeric text-[12px] font-medium" type="button">INR ₹</button>
+<button class="px-3.5 py-1 rounded-full text-on-surface-variant hover:text-on-surface font-label-numeric text-[12px] font-medium transition-colors" type="button">USD $</button>
+</div>
+<a class="inline-flex items-center justify-center px-6 py-2.5 rounded-full clay-btn-squeeze font-label-pill text-[13px] tracking-wide" data-path="contact" href="contact.html">Become a Client</a>
+<div class="w-9 h-9 rounded-full clay-pill-idle flex items-center justify-center text-on-surface">
+<span class="material-symbols-outlined text-[19px]">person</span>
+</div>
+</div>
+</div>
+
+<!-- Mobile Navigation Drawer -->
+<div id="mobile-drawer" class="hidden xl:hidden fixed top-28 left-6 right-6 max-w-[1280px] mx-auto p-6 clay-card backdrop-blur-2xl z-50 transition-all duration-300 shadow-2xl border border-white/80">
+  <div class="flex flex-col gap-3">
+    <a href="index.html" class="px-4 py-3 rounded-2xl text-on-surface hover:bg-black/5 font-body-sm transition-all flex items-center justify-between">
+      <span>Home</span>
+      <span class="material-symbols-outlined text-[18px]">arrow_forward</span>
+    </a>
+    <a href="about.html" class="px-4 py-3 rounded-2xl text-on-surface hover:bg-black/5 font-body-sm transition-all flex items-center justify-between">
+      <span>About</span>
+      <span class="material-symbols-outlined text-[18px]">arrow_forward</span>
+    </a>
+    <a href="ai-solutions.html" class="px-4 py-3 rounded-2xl clay-pill-dark text-on-primary font-medium font-body-sm transition-all flex items-center justify-between">
+      <span>AI Solutions</span>
+      <span class="material-symbols-outlined text-[18px]">arrow_forward</span>
+    </a>
+    <a href="social-growth.html" class="px-4 py-3 rounded-2xl text-on-surface hover:bg-black/5 font-body-sm transition-all flex items-center justify-between">
+      <span>Social Growth</span>
+      <span class="material-symbols-outlined text-[18px]">arrow_forward</span>
+    </a>
+    <a href="ai-pricing.html" class="px-4 py-3 rounded-2xl text-on-surface hover:bg-black/5 font-body-sm transition-all flex items-center justify-between">
+      <span>AI Pricing</span>
+      <span class="material-symbols-outlined text-[18px]">arrow_forward</span>
+    </a>
+    <a href="social-packages.html" class="px-4 py-3 rounded-2xl text-on-surface hover:bg-black/5 font-body-sm transition-all flex items-center justify-between">
+      <span>Social Packages</span>
+      <span class="material-symbols-outlined text-[18px]">arrow_forward</span>
+    </a>
+    <a href="contact.html" class="px-4 py-3 rounded-2xl text-on-surface hover:bg-black/5 font-body-sm transition-all flex items-center justify-between">
+      <span>Contact</span>
+      <span class="material-symbols-outlined text-[18px]">arrow_forward</span>
+    </a>
+    <div class="pt-2 border-t border-black/10 flex items-center justify-between">
+      <a href="contact.html" class="w-full text-center py-3 rounded-full clay-badge-orange text-white font-label-md text-label-md shadow-md">
+        Become a Client
+      </a>
+    </div>
+  </div>
+</div>
+</header>
+<main class="w-full pt-20 max-w-[1280px] mx-auto px-6">
+<div class="flex flex-col w-full">
+<!-- Header / Directory Meta Section -->
+<section class="w-full pt-12 pb-8">
+<div class="flex flex-col lg:flex-row lg:items-end justify-between gap-8 pb-10">
+<div class="space-y-4 max-w-3xl">
+<div class="inline-flex items-center gap-2.5 px-4 py-2 rounded-full clay-pill-idle">
+<span class="w-2.5 h-2.5 rounded-full bg-brand-red animate-pulse"></span>
+<span class="font-label-pill text-[11px] font-semibold tracking-wider text-on-surface uppercase">Service Directory</span>
+</div>
+<h1 class="font-headline-xl text-[44px] lg:text-[64px] text-on-surface font-semibold tracking-tight leading-[1.08]">
+              Enterprise AI &amp; <span class="text-on-surface-variant/60 font-normal">Automation Catalog</span>
+</h1>
+<p class="font-body-lg text-body-lg text-on-surface-variant max-w-2xl leading-relaxed">
+              Explore our catalog of 23 battle-tested deployment-ready AI capabilities. Fully managed, monitored, sovereign, and wired cleanly into your enterprise stack.
+            </p>
+</div>
+<div class="flex flex-wrap sm:flex-nowrap items-center gap-3.5">
+<div class="flex items-center gap-3.5 px-5 py-3.5 rounded-2xl clay-card">
+<span class="w-3 h-3 rounded-full bg-brand-red ring-4 ring-brand-red/15"></span>
+<div>
+<div class="font-label-numeric text-[13px] text-on-surface font-bold tracking-tight">23 Live Blueprints</div>
+<div class="font-body-sm text-[12px] text-on-surface-variant">Production-certified v4.2</div>
+</div>
+</div>
+<div class="flex items-center gap-3.5 px-5 py-3.5 rounded-2xl clay-card">
+<div class="w-7 h-7 rounded-xl clay-tag flex items-center justify-center">
+<span class="material-symbols-outlined text-[18px] text-brand-red">bolt</span>
+</div>
+<div>
+<div class="font-label-numeric text-[13px] text-on-surface font-bold tracking-tight">&lt;14d Time-to-Live</div>
+<div class="font-body-sm text-[12px] text-on-surface-variant">Rapid pipeline injection</div>
+</div>
+</div>
+</div>
+</div>
+
+<!-- Interactive AI Architecture Playground Section -->
+<section class="w-full py-10">
+  <div class="p-8 lg:p-12 clay-card bg-gradient-to-br from-white via-surface-container-lowest to-surface-container-low relative overflow-hidden">
+    <div class="flex flex-col lg:flex-row items-start lg:items-center justify-between gap-6 mb-8 pb-6 border-b border-surface-container-highest">
+      <div>
+        <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full clay-badge text-brand-red font-label-numeric text-[11px] uppercase tracking-wider font-semibold mb-2">
+          <span class="w-2 h-2 rounded-full bg-brand-red animate-pulse"></span> Architecture Playground
+        </div>
+        <h2 class="font-headline-lg text-headline-lg text-on-surface tracking-tight">Interactive AI Pipeline Visualizer</h2>
+      </div>
+
+      <!-- Preset Navigation Tabs -->
+      <div id="ai-viz-nav" class="flex flex-wrap items-center gap-2 p-1.5 rounded-3xl clay-track-debossed">
+        <button type="button" data-viz-target="vector-mesh" class="px-4 py-2 rounded-2xl text-xs font-semibold clay-pill-white text-on-surface shadow-sm transition-all">Vector Mesh</button>
+        <button type="button" data-viz-target="agentic-pipeline" class="px-4 py-2 rounded-2xl text-xs font-semibold text-on-surface-variant hover:text-on-surface transition-all">Agent Mesh</button>
+        <button type="button" data-viz-target="voice-synth" class="px-4 py-2 rounded-2xl text-xs font-semibold text-on-surface-variant hover:text-on-surface transition-all">Voice Neural</button>
+        <button type="button" data-viz-target="compute-nodes" class="px-4 py-2 rounded-2xl text-xs font-semibold text-on-surface-variant hover:text-on-surface transition-all">Compute Nodes</button>
+      </div>
+    </div>
+
+    <div class="grid grid-cols-1 lg:grid-cols-12 gap-8">
+      <!-- Left Configuration Panel -->
+      <div class="lg:col-span-6 space-y-6">
+        <div>
+          <h3 id="viz-title" class="font-headline-md text-2xl font-bold text-on-surface">High-Throughput Vector Mesh (pgvector / Qdrant)</h3>
+          <p id="viz-desc" class="font-body-md text-on-surface-variant mt-2">Sub-15ms embedding retrieval over billions of high-dimensional vectors with zero data leakage.</p>
+        </div>
+
+        <div class="grid grid-cols-2 gap-4">
+          <div class="p-5 rounded-2xl clay-card">
+            <span class="block text-[11px] uppercase font-mono text-on-surface-variant font-medium">Latency Median</span>
+            <span id="viz-metric-1" class="font-headline-md text-2xl font-bold text-brand-red mt-1 block">11.4 ms</span>
+          </div>
+          <div class="p-5 rounded-2xl clay-card">
+            <span class="block text-[11px] uppercase font-mono text-on-surface-variant font-medium">Throughput</span>
+            <span id="viz-metric-2" class="font-headline-md text-2xl font-bold text-on-surface mt-1 block">4.8M ops/sec</span>
+          </div>
+        </div>
+
+        <div class="pt-2 flex items-center gap-4">
+          <button type="button" data-open-booking class="px-6 py-3 rounded-full clay-btn-squeeze text-white font-medium text-sm flex items-center gap-2 cursor-pointer shadow-md">
+            <span>Deploy This Architecture</span>
+            <span class="material-symbols-outlined text-[18px]">rocket_launch</span>
+          </button>
+        </div>
+      </div>
+
+      <!-- Right Code / Console Box -->
+      <div class="lg:col-span-6 p-6 rounded-3xl clay-obsidian text-white font-mono text-xs space-y-4 relative overflow-hidden">
+        <div class="flex items-center justify-between pb-3 border-b border-white/10">
+          <div class="flex items-center gap-2">
+            <span class="w-3 h-3 rounded-full bg-rose-500/80"></span>
+            <span class="w-3 h-3 rounded-full bg-amber-500/80"></span>
+            <span class="w-3 h-3 rounded-full bg-emerald-500/80"></span>
+            <span class="text-[11px] text-white/50 ml-2">deist-orchestrator.ts</span>
+          </div>
+          <span class="text-[10px] px-2 py-0.5 rounded bg-emerald-500/20 text-emerald-300 font-sans">LIVE PREVIEW</span>
+        </div>
+
+        <pre><code id="viz-code" class="text-emerald-300 leading-relaxed overflow-x-auto block">const vectorMesh = new SovereignVectorMesh({
+  dimensions: 1536,
+  metric: "cosine",
+  shards: 128,
+  isolation: "airgapped"
+});
+await vectorMesh.query({ topK: 10, threshold: 0.94 });</code></pre>
+
+        <div class="pt-2 border-t border-white/10 flex items-center justify-between text-[11px] text-white/60 font-sans">
+          <span class="flex items-center gap-1.5"><span class="w-2 h-2 rounded-full bg-emerald-400 animate-ping"></span> Mesh Active</span>
+          <span>Encrypted Node Shard #402</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Active Search & Category Taxonomy Controls -->
+<div class="space-y-5 pt-2">
+<div class="relative w-full">
+<span class="material-symbols-outlined absolute left-5 top-1/2 -translate-y-1/2 text-on-surface-variant text-[22px]">search</span>
+<input class="clay-search w-full pl-14 pr-32 py-4 rounded-2xl text-on-surface placeholder:text-on-surface-variant/60 font-body-md focus:outline-none transition-all" id="catalog-search" placeholder="Search 23 capabilities, models, or frameworks (e.g. RAG, Llama, CRM, Claude)..." type="text"/>
+<div class="absolute right-4 top-1/2 -translate-y-1/2 hidden sm:flex items-center gap-1.5 px-3 py-1.5 rounded-xl clay-tag text-on-surface-variant font-label-numeric text-[11px] font-semibold">
+<span>⌘</span><span>K</span>
+</div>
+</div>
+<!-- Debossed Clay Track with Inflated Pill Tabs -->
+<div class="p-1.5 rounded-full clay-track-debossed flex items-center gap-1.5 overflow-x-auto scrollbar-none" id="filter-container">
+<button class="filter-tab px-5 py-2.5 rounded-full clay-pill-active font-label-pill text-[12px] font-semibold whitespace-nowrap transition-all flex items-center gap-2" data-category="all">
+<span>All Solutions</span>
+<span class="w-1.5 h-1.5 rounded-full bg-brand-red inline-block"></span>
+<span class="text-white/70 text-[11px]">(23)</span>
+</button>
+<button class="filter-tab px-5 py-2.5 rounded-full clay-pill-idle font-label-pill text-[12px] font-medium whitespace-nowrap" data-category="agents">
+              AI Agents (5)
+            </button>
+<button class="filter-tab px-5 py-2.5 rounded-full clay-pill-idle font-label-pill text-[12px] font-medium whitespace-nowrap" data-category="automation">
+              Automation (5)
+            </button>
+<button class="filter-tab px-5 py-2.5 rounded-full clay-pill-idle font-label-pill text-[12px] font-medium whitespace-nowrap" data-category="industry">
+              Industry Solutions (5)
+            </button>
+<button class="filter-tab px-5 py-2.5 rounded-full clay-pill-idle font-label-pill text-[12px] font-medium whitespace-nowrap" data-category="data">
+              Data &amp; Cloud (4)
+            </button>
+<button class="filter-tab px-5 py-2.5 rounded-full clay-pill-idle font-label-pill text-[12px] font-medium whitespace-nowrap" data-category="custom">
+              Custom Engineering (4)
+            </button>
+</div>
+</div>
+</section>
+<!-- Live Active Solution Counter / Architectural Status Bar -->
+<div class="flex items-center justify-between py-3.5 mb-8 px-5 rounded-2xl clay-card">
+<div class="flex items-center gap-3">
+<span class="font-label-numeric text-[13px] text-on-surface font-semibold" id="results-count">Showing 23 Modules</span>
+<span class="text-on-surface-variant/40">•</span>
+<span class="font-body-sm text-[13px] text-on-surface-variant">Native SOC-2 compliant orchestration</span>
+</div>
+<div class="hidden md:flex items-center gap-4 text-on-surface-variant font-label-numeric text-[12px]">
+<span class="flex items-center gap-1.5"><span class="w-2 h-2 rounded-full bg-brand-red animate-pulse"></span>Telemetry 99.98%</span>
+<span>Tier 1 Enterprise Support Included</span>
+</div>
+</div>
+<!-- Primary Capability Grid (23 Tactile Clay Blueprint Cards) -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-7" id="catalog-grid">
+<!-- Card 1: Multi-Agent Customer Concierge -->
+<div class="solution-card clay-card flex flex-col justify-between p-7" data-category="agents">
+<div>
+<div class="flex items-start justify-between mb-5">
+<div class="relative w-12 h-12 rounded-2xl clay-icon-tile flex items-center justify-center text-white">
+<span class="material-symbols-outlined text-[24px]">support_agent</span>
+<span class="absolute -bottom-0.5 -right-0.5 w-2.5 h-2.5 rounded-full bg-brand-red ring-2 ring-white"></span>
+</div>
+<div class="flex items-center gap-2">
+<span class="px-2.5 py-1 rounded-xl clay-tag font-label-numeric text-[10px] text-on-surface-variant font-bold tracking-wider uppercase">AI AGENTS</span>
+<span class="font-label-numeric text-[12px] text-on-surface-variant/50 font-semibold">#01</span>
+</div>
+</div>
+<div class="font-label-numeric text-[11px] uppercase tracking-wider text-brand-red font-bold">DEIST-AGT-01</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface font-semibold mt-1">Multi-Agent Concierge</h3>
+<p class="font-body-md text-body-md text-on-surface-variant mt-2 leading-relaxed">
+              Autonomous multi-tier triage system resolving 78% of enterprise tickets with human escalation triggers.
+            </p>
+<div class="flex flex-wrap gap-1.5 mt-4">
+<span class="px-2.5 py-1 rounded-xl clay-tag text-on-surface-variant font-label-numeric text-[11px]">LangGraph</span>
+<span class="px-2.5 py-1 rounded-xl clay-tag text-on-surface-variant font-label-numeric text-[11px]">Claude 3.5 Sonnet</span>
+<span class="px-2.5 py-1 rounded-xl clay-tag text-on-surface-variant font-label-numeric text-[11px]">Zendesk SDK</span>
+</div>
+</div>
+<div class="pt-6 mt-6 border-t border-black/5">
+<div class="flex items-baseline justify-between mb-4">
+<div>
+<span class="font-body-sm text-[11px] uppercase tracking-wider text-on-surface-variant block">Deployment</span>
+<span class="font-label-numeric text-on-surface font-bold text-[14px]">₹1,20,000 / $1,450</span>
+</div>
+<div class="text-right">
+<span class="font-body-sm text-[11px] uppercase tracking-wider text-on-surface-variant block">Retainer</span>
+<span class="font-headline-sm text-headline-sm font-semibold text-on-surface">₹45,000<span class="text-xs font-normal text-on-surface-variant">/mo</span></span>
+</div>
+</div>
+<button class="add-stack-btn w-full py-3.5 rounded-full clay-btn-squeeze font-label-pill text-[13px] tracking-wide flex items-center justify-center gap-2">
+<span class="material-symbols-outlined text-[18px]">add</span>
+<span>Add to Stack</span>
+</button>
+</div>
+</div>
+<!-- Card 2: Autonomous Outbound SDR -->
+<div class="solution-card clay-card flex flex-col justify-between p-7" data-category="agents">
+<div>
+<div class="flex items-start justify-between mb-5">
+<div class="relative w-12 h-12 rounded-2xl clay-icon-tile flex items-center justify-center text-white">
+<span class="material-symbols-outlined text-[24px]">rocket_launch</span>
+</div>
+<div class="flex items-center gap-2">
+<span class="px-2.5 py-1 rounded-xl clay-tag font-label-numeric text-[10px] text-on-surface-variant font-bold tracking-wider uppercase">AI AGENTS</span>
+<span class="font-label-numeric text-[12px] text-on-surface-variant/50 font-semibold">#02</span>
+</div>
+</div>
+<div class="font-label-numeric text-[11px] uppercase tracking-wider text-brand-red font-bold">DEIST-AGT-02</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface font-semibold mt-1">Autonomous Outbound SDR</h3>
+<p class="font-body-md text-body-md text-on-surface-variant mt-2 leading-relaxed">
+              Researches prospect intent signals, drafts bespoke value hooks, and drives calendar bookings safely.
+            </p>
+<div class="flex flex-wrap gap-1.5 mt-4">
+<span class="px-2.5 py-1 rounded-xl clay-tag text-on-surface-variant font-label-numeric text-[11px]">Llama 3.3 70B</span>
+<span class="px-2.5 py-1 rounded-xl clay-tag text-on-surface-variant font-label-numeric text-[11px]">Apollo API</span>
+<span class="px-2.5 py-1 rounded-xl clay-tag text-on-surface-variant font-label-numeric text-[11px]">Clay Hooks</span>
+</div>
+</div>
+<div class="pt-6 mt-6 border-t border-black/5">
+<div class="flex items-baseline justify-between mb-4">
+<div>
+<span class="font-body-sm text-[11px] uppercase tracking-wider text-on-surface-variant block">Deployment</span>
+<span class="font-label-numeric text-on-surface font-bold text-[14px]">₹1,50,000 / $1,800</span>
+</div>
+<div class="text-right">
+<span class="font-body-sm text-[11px] uppercase tracking-wider text-on-surface-variant block">Retainer</span>
+<span class="font-headline-sm text-headline-sm font-semibold text-on-surface">₹55,000<span class="text-xs font-normal text-on-surface-variant">/mo</span></span>
+</div>
+</div>
+<button class="add-stack-btn w-full py-3.5 rounded-full clay-btn-squeeze font-label-pill text-[13px] tracking-wide flex items-center justify-center gap-2">
+<span class="material-symbols-outlined text-[18px]">add</span>
+<span>Add to Stack</span>
+</button>
+</div>
+</div>
+<!-- Card 3: Executive Research Agent -->
+<div class="solution-card clay-card flex flex-col justify-between p-7" data-category="agents">
+<div>
+<div class="flex items-start justify-between mb-5">
+<div class="relative w-12 h-12 rounded-2xl clay-icon-tile flex items-center justify-center text-white">
+<span class="material-symbols-outlined text-[24px]">manage_search</span>
+</div>
+<div class="flex items-center gap-2">
+<span class="px-2.5 py-1 rounded-xl clay-tag font-label-numeric text-[10px] text-on-surface-variant font-bold tracking-wider uppercase">AI AGENTS</span>
+<span class="font-label-numeric text-[12px] text-on-surface-variant/50 font-semibold">#03</span>
+</div>
+</div>
+<div class="font-label-numeric text-[11px] uppercase tracking-wider text-brand-red font-bold">DEIST-AGT-03</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface font-semibold mt-1">Executive Research Agent</h3>
+<p class="font-body-md text-body-md text-on-surface-variant mt-2 leading-relaxed">
+              Aggregates competitive landscape, market reports, and filings into formatted morning briefing dossiers.
+            </p>
+<div class="flex flex-wrap gap-1.5 mt-4">
+<span class="px-2.5 py-1 rounded-xl clay-tag text-on-surface-variant font-label-numeric text-[11px]">Perplexity Pro</span>
+<span class="px-2.5 py-1 rounded-xl clay-tag text-on-surface-variant font-label-numeric text-[11px]">GPT-4o</span>
+<span class="px-2.5 py-1 rounded-xl clay-tag text-on-surface-variant font-label-numeric text-[11px]">Notion Sync</span>
+</div>
+</div>
+<div class="pt-6 mt-6 border-t border-black/5">
+<div class="flex items-baseline justify-between mb-4">
+<div>
+<span class="font-body-sm text-[11px] uppercase tracking-wider text-on-surface-variant block">Deployment</span>
+<span class="font-label-numeric text-on-surface font-bold text-[14px]">₹95,000 / $1,150</span>
+</div>
+<div class="text-right">
+<span class="font-body-sm text-[11px] uppercase tracking-wider text-on-surface-variant block">Retainer</span>
+<span class="font-headline-sm text-headline-sm font-semibold text-on-surface">₹35,000<span class="text-xs font-normal text-on-surface-variant">/mo</span></span>
+</div>
+</div>
+<button class="add-stack-btn w-full py-3.5 rounded-full clay-btn-squeeze font-label-pill text-[13px] tracking-wide flex items-center justify-center gap-2">
+<span class="material-symbols-outlined text-[18px]">add</span>
+<span>Add to Stack</span>
+</button>
+</div>
+</div>
+<!-- Card 4: Code Review & QA Swarm -->
+<div class="solution-card clay-card flex flex-col justify-between p-7" data-category="agents">
+<div>
+<div class="flex items-start justify-between mb-5">
+<div class="relative w-12 h-12 rounded-2xl clay-icon-tile flex items-center justify-center text-white">
+<span class="material-symbols-outlined text-[24px]">code_blocks</span>
+</div>
+<div class="flex items-center gap-2">
+<span class="px-2.5 py-1 rounded-xl clay-tag font-label-numeric text-[10px] text-on-surface-variant font-bold tracking-wider uppercase">AI AGENTS</span>
+<span class="font-label-numeric text-[12px] text-on-surface-variant/50 font-semibold">#04</span>
+</div>
+</div>
+<div class="font-label-numeric text-[11px] uppercase tracking-wider text-brand-red font-bold">DEIST-AGT-04</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface font-semibold mt-1">Code Review &amp; QA Swarm</h3>
+<p class="font-body-md text-body-md text-on-surface-variant mt-2 leading-relaxed">
+              In-line PR security inspection, test harness generation, and linting enforcement inside GitHub/GitLab CI.
+            </p>
+<div class="flex flex-wrap gap-1.5 mt-4">
+<span class="px-2.5 py-1 rounded-xl clay-tag text-on-surface-variant font-label-numeric text-[11px]">DeepSeek-Coder</span>
+<span class="px-2.5 py-1 rounded-xl clay-tag text-on-surface-variant font-label-numeric text-[11px]">Tree-sitter</span>
+<span class="px-2.5 py-1 rounded-xl clay-tag text-on-surface-variant font-label-numeric text-[11px]">GitHub Actions</span>
+</div>
+</div>
+<div class="pt-6 mt-6 border-t border-black/5">
+<div class="flex items-baseline justify-between mb-4">
+<div>
+<span class="font-body-sm text-[11px] uppercase tracking-wider text-on-surface-variant block">Deployment</span>
+<span class="font-label-numeric text-on-surface font-bold text-[14px]">₹1,80,000 / $2,150</span>
+</div>
+<div class="text-right">
+<span class="font-body-sm text-[11px] uppercase tracking-wider text-on-surface-variant block">Retainer</span>
+<span class="font-headline-sm text-headline-sm font-semibold text-on-surface">₹60,000<span class="text-xs font-normal text-on-surface-variant">/mo</span></span>
+</div>
+</div>
+<button class="add-stack-btn w-full py-3.5 rounded-full clay-btn-squeeze font-label-pill text-[13px] tracking-wide flex items-center justify-center gap-2">
+<span class="material-symbols-outlined text-[18px]">add</span>
+<span>Add to Stack</span>
+</button>
+</div>
+</div>
+<!-- Card 5: Voice AI Dispatcher -->
+<div class="solution-card clay-card flex flex-col justify-between p-7" data-category="agents">
+<div>
+<div class="flex items-start justify-between mb-5">
+<div class="relative w-12 h-12 rounded-2xl clay-icon-tile flex items-center justify-center text-white">
+<span class="material-symbols-outlined text-[24px]">record_voice_over</span>
+<span class="absolute -bottom-0.5 -right-0.5 w-2.5 h-2.5 rounded-full bg-brand-red ring-2 ring-white"></span>
+</div>
+<div class="flex items-center gap-2">
+<span class="px-2.5 py-1 rounded-xl clay-tag font-label-numeric text-[10px] text-on-surface-variant font-bold tracking-wider uppercase">AI AGENTS</span>
+<span class="font-label-numeric text-[12px] text-on-surface-variant/50 font-semibold">#05</span>
+</div>
+</div>
+<div class="font-label-numeric text-[11px] uppercase tracking-wider text-brand-red font-bold">DEIST-AGT-05</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface font-semibold mt-1">Voice AI Dispatcher</h3>
+<p class="font-body-md text-body-md text-on-surface-variant mt-2 leading-relaxed">
+              Sub-450ms latency voice agent for emergency service routing, appointment booking, and cold triage.
+            </p>
+<div class="flex flex-wrap gap-1.5 mt-4">
+<span class="px-2.5 py-1 rounded-xl clay-tag text-on-surface-variant font-label-numeric text-[11px]">ElevenLabs API</span>
+<span class="px-2.5 py-1 rounded-xl clay-tag text-on-surface-variant font-label-numeric text-[11px]">LiveKit</span>
+<span class="px-2.5 py-1 rounded-xl clay-tag text-on-surface-variant font-label-numeric text-[11px]">Twilio SIP</span>
+</div>
+</div>
+<div class="pt-6 mt-6 border-t border-black/5">
+<div class="flex items-baseline justify-between mb-4">
+<div>
+<span class="font-body-sm text-[11px] uppercase tracking-wider text-on-surface-variant block">Deployment</span>
+<span class="font-label-numeric text-on-surface font-bold text-[14px]">₹2,10,000 / $2,500</span>
+</div>
+<div class="text-right">
+<span class="font-body-sm text-[11px] uppercase tracking-wider text-on-surface-variant block">Retainer</span>
+<span class="font-headline-sm text-headline-sm font-semibold text-on-surface">₹75,000<span class="text-xs font-normal text-on-surface-variant">/mo</span></span>
+</div>
+</div>
+<button class="add-stack-btn w-full py-3.5 rounded-full clay-btn-squeeze font-label-pill text-[13px] tracking-wide flex items-center justify-center gap-2">
+<span class="material-symbols-outlined text-[18px]">add</span>
+<span>Add to Stack</span>
+</button>
+</div>
+</div>
+<!-- Card 6: ERP & CRM Unified Pipeline -->
+<div class="solution-card clay-card flex flex-col justify-between p-7" data-category="automation">
+<div>
+<div class="flex items-start justify-between mb-5">
+<div class="relative w-12 h-12 rounded-2xl clay-icon-tile flex items-center justify-center text-white">
+<span class="material-symbols-outlined text-[24px]">sync_alt</span>
+</div>
+<div class="flex items-center gap-2">
+<span class="px-2.5 py-1 rounded-xl clay-tag font-label-numeric text-[10px] text-on-surface-variant font-bold tracking-wider uppercase">AUTOMATION</span>
+<span class="font-label-numeric text-[12px] text-on-surface-variant/50 font-semibold">#06</span>
+</div>
+</div>
+<div class="font-label-numeric text-[11px] uppercase tracking-wider text-brand-red font-bold">DEIST-AUT-01</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface font-semibold mt-1">ERP &amp; CRM Unified Pipeline</h3>
+<p class="font-body-md text-body-md text-on-surface-variant mt-2 leading-relaxed">
+              Zero-drift synchronization between Salesforce, SAP, and custom transactional databases with validation logic.
+            </p>
+<div class="flex flex-wrap gap-1.5 mt-4">
+<span class="px-2.5 py-1 rounded-xl clay-tag text-on-surface-variant font-label-numeric text-[11px]">Temporal.io</span>
+<span class="px-2.5 py-1 rounded-xl clay-tag text-on-surface-variant font-label-numeric text-[11px]">FastAPI</span>
+<span class="px-2.5 py-1 rounded-xl clay-tag text-on-surface-variant font-label-numeric text-[11px]">Apache Kafka</span>
+</div>
+</div>
+<div class="pt-6 mt-6 border-t border-black/5">
+<div class="flex items-baseline justify-between mb-4">
+<div>
+<span class="font-body-sm text-[11px] uppercase tracking-wider text-on-surface-variant block">Deployment</span>
+<span class="font-label-numeric text-on-surface font-bold text-[14px]">₹1,75,000 / $2,100</span>
+</div>
+<div class="text-right">
+<span class="font-body-sm text-[11px] uppercase tracking-wider text-on-surface-variant block">Retainer</span>
+<span class="font-headline-sm text-headline-sm font-semibold text-on-surface">₹50,000<span class="text-xs font-normal text-on-surface-variant">/mo</span></span>
+</div>
+</div>
+<button class="add-stack-btn w-full py-3.5 rounded-full clay-btn-squeeze font-label-pill text-[13px] tracking-wide flex items-center justify-center gap-2">
+<span class="material-symbols-outlined text-[18px]">add</span>
+<span>Add to Stack</span>
+</button>
+</div>
+</div>
+<!-- Card 7: Financial Reconciliation -->
+<div class="solution-card clay-card flex flex-col justify-between p-7" data-category="automation">
+<div>
+<div class="flex items-start justify-between mb-5">
+<div class="relative w-12 h-12 rounded-2xl clay-icon-tile flex items-center justify-center text-white">
+<span class="material-symbols-outlined text-[24px]">receipt_long</span>
+</div>
+<div class="flex items-center gap-2">
+<span class="px-2.5 py-1 rounded-xl clay-tag font-label-numeric text-[10px] text-on-surface-variant font-bold tracking-wider uppercase">AUTOMATION</span>
+<span class="font-label-numeric text-[12px] text-on-surface-variant/50 font-semibold">#07</span>
+</div>
+</div>
+<div class="font-label-numeric text-[11px] uppercase tracking-wider text-brand-red font-bold">DEIST-AUT-02</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface font-semibold mt-1">Financial Reconciliation</h3>
+<p class="font-body-md text-body-md text-on-surface-variant mt-2 leading-relaxed">
+              Autonomous matching of multi-currency bank feeds against invoices, Stripe charges, and tax ledgers.
+            </p>
+<div class="flex flex-wrap gap-1.5 mt-4">
+<span class="px-2.5 py-1 rounded-xl clay-tag text-on-surface-variant font-label-numeric text-[11px]">Python ETL</span>
+<span class="px-2.5 py-1 rounded-xl clay-tag text-on-surface-variant font-label-numeric text-[11px]">DuckDB</span>
+<span class="px-2.5 py-1 rounded-xl clay-tag text-on-surface-variant font-label-numeric text-[11px]">QuickBooks API</span>
+</div>
+</div>
+<div class="pt-6 mt-6 border-t border-black/5">
+<div class="flex items-baseline justify-between mb-4">
+<div>
+<span class="font-body-sm text-[11px] uppercase tracking-wider text-on-surface-variant block">Deployment</span>
+<span class="font-label-numeric text-on-surface font-bold text-[14px]">₹1,40,000 / $1,680</span>
+</div>
+<div class="text-right">
+<span class="font-body-sm text-[11px] uppercase tracking-wider text-on-surface-variant block">Retainer</span>
+<span class="font-headline-sm text-headline-sm font-semibold text-on-surface">₹40,000<span class="text-xs font-normal text-on-surface-variant">/mo</span></span>
+</div>
+</div>
+<button class="add-stack-btn w-full py-3.5 rounded-full clay-btn-squeeze font-label-pill text-[13px] tracking-wide flex items-center justify-center gap-2">
+<span class="material-symbols-outlined text-[18px]">add</span>
+<span>Add to Stack</span>
+</button>
+</div>
+</div>
+<!-- Card 8: Supply Chain Auto-Restock -->
+<div class="solution-card clay-card flex flex-col justify-between p-7" data-category="automation">
+<div>
+<div class="flex items-start justify-between mb-5">
+<div class="relative w-12 h-12 rounded-2xl clay-icon-tile flex items-center justify-center text-white">
+<span class="material-symbols-outlined text-[24px]">inventory</span>
+</div>
+<div class="flex items-center gap-2">
+<span class="px-2.5 py-1 rounded-xl clay-tag font-label-numeric text-[10px] text-on-surface-variant font-bold tracking-wider uppercase">AUTOMATION</span>
+<span class="font-label-numeric text-[12px] text-on-surface-variant/50 font-semibold">#08</span>
+</div>
+</div>
+<div class="font-label-numeric text-[11px] uppercase tracking-wider text-brand-red font-bold">DEIST-AUT-03</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface font-semibold mt-1">Supply Chain Auto-Restock</h3>
+<p class="font-body-md text-body-md text-on-surface-variant mt-2 leading-relaxed">
+              Predictive velocity monitoring triggering autonomous PO generation based on port delays and lead curves.
+            </p>
+<div class="flex flex-wrap gap-1.5 mt-4">
+<span class="px-2.5 py-1 rounded-xl clay-tag text-on-surface-variant font-label-numeric text-[11px]">XGBoost</span>
+<span class="px-2.5 py-1 rounded-xl clay-tag text-on-surface-variant font-label-numeric text-[11px]">NetSuite Connector</span>
+<span class="px-2.5 py-1 rounded-xl clay-tag text-on-surface-variant font-label-numeric text-[11px]">Airflow</span>
+</div>
+</div>
+<div class="pt-6 mt-6 border-t border-black/5">
+<div class="flex items-baseline justify-between mb-4">
+<div>
+<span class="font-body-sm text-[11px] uppercase tracking-wider text-on-surface-variant block">Deployment</span>
+<span class="font-label-numeric text-on-surface font-bold text-[14px]">₹1,90,000 / $2,280</span>
+</div>
+<div class="text-right">
+<span class="font-body-sm text-[11px] uppercase tracking-wider text-on-surface-variant block">Retainer</span>
+<span class="font-headline-sm text-headline-sm font-semibold text-on-surface">₹65,000<span class="text-xs font-normal text-on-surface-variant">/mo</span></span>
+</div>
+</div>
+<button class="add-stack-btn w-full py-3.5 rounded-full clay-btn-squeeze font-label-pill text-[13px] tracking-wide flex items-center justify-center gap-2">
+<span class="material-symbols-outlined text-[18px]">add</span>
+<span>Add to Stack</span>
+</button>
+</div>
+</div>
+<!-- Card 9: HR Candidate Screening Agent -->
+<div class="solution-card clay-card flex flex-col justify-between p-7" data-category="automation">
+<div>
+<div class="flex items-start justify-between mb-5">
+<div class="relative w-12 h-12 rounded-2xl clay-icon-tile flex items-center justify-center text-white">
+<span class="material-symbols-outlined text-[24px]">badge</span>
+</div>
+<div class="flex items-center gap-2">
+<span class="px-2.5 py-1 rounded-xl clay-tag font-label-numeric text-[10px] text-on-surface-variant font-bold tracking-wider uppercase">AUTOMATION</span>
+<span class="font-label-numeric text-[12px] text-on-surface-variant/50 font-semibold">#09</span>
+</div>
+</div>
+<div class="font-label-numeric text-[11px] uppercase tracking-wider text-brand-red font-bold">DEIST-AUT-04</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface font-semibold mt-1">HR Screening &amp; Scorecard</h3>
+<p class="font-body-md text-body-md text-on-surface-variant mt-2 leading-relaxed">
+              Blind resume parsing against role competencies with automated technical quiz calibration via Slack/Teams.
+            </p>
+<div class="flex flex-wrap gap-1.5 mt-4">
+<span class="px-2.5 py-1 rounded-xl clay-tag text-on-surface-variant font-label-numeric text-[11px]">Greenhouse API</span>
+<span class="px-2.5 py-1 rounded-xl clay-tag text-on-surface-variant font-label-numeric text-[11px]">Mistral Large</span>
+<span class="px-2.5 py-1 rounded-xl clay-tag text-on-surface-variant font-label-numeric text-[11px]">Slack SDK</span>
+</div>
+</div>
+<div class="pt-6 mt-6 border-t border-black/5">
+<div class="flex items-baseline justify-between mb-4">
+<div>
+<span class="font-body-sm text-[11px] uppercase tracking-wider text-on-surface-variant block">Deployment</span>
+<span class="font-label-numeric text-on-surface font-bold text-[14px]">₹1,10,000 / $1,320</span>
+</div>
+<div class="text-right">
+<span class="font-body-sm text-[11px] uppercase tracking-wider text-on-surface-variant block">Retainer</span>
+<span class="font-headline-sm text-headline-sm font-semibold text-on-surface">₹38,000<span class="text-xs font-normal text-on-surface-variant">/mo</span></span>
+</div>
+</div>
+<button class="add-stack-btn w-full py-3.5 rounded-full clay-btn-squeeze font-label-pill text-[13px] tracking-wide flex items-center justify-center gap-2">
+<span class="material-symbols-outlined text-[18px]">add</span>
+<span>Add to Stack</span>
+</button>
+</div>
+</div>
+<!-- Card 10: Contract Audit & Compliance -->
+<div class="solution-card clay-card flex flex-col justify-between p-7" data-category="automation">
+<div>
+<div class="flex items-start justify-between mb-5">
+<div class="relative w-12 h-12 rounded-2xl clay-icon-tile flex items-center justify-center text-white">
+<span class="material-symbols-outlined text-[24px]">gavel</span>
+<span class="absolute -bottom-0.5 -right-0.5 w-2.5 h-2.5 rounded-full bg-brand-red ring-2 ring-white"></span>
+</div>
+<div class="flex items-center gap-2">
+<span class="px-2.5 py-1 rounded-xl clay-tag font-label-numeric text-[10px] text-on-surface-variant font-bold tracking-wider uppercase">AUTOMATION</span>
+<span class="font-label-numeric text-[12px] text-on-surface-variant/50 font-semibold">#10</span>
+</div>
+</div>
+<div class="font-label-numeric text-[11px] uppercase tracking-wider text-brand-red font-bold">DEIST-AUT-05</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface font-semibold mt-1">Contract Audit &amp; Compliance</h3>
+<p class="font-body-md text-body-md text-on-surface-variant mt-2 leading-relaxed">
+              Scans MSAs, NDAs, and Vendor SLAS to flag non-standard liability clauses, indemnity caps, and termination cues.
+            </p>
+<div class="flex flex-wrap gap-1.5 mt-4">
+<span class="px-2.5 py-1 rounded-xl clay-tag text-on-surface-variant font-label-numeric text-[11px]">Claude 3.5 Sonnet</span>
+<span class="px-2.5 py-1 rounded-xl clay-tag text-on-surface-variant font-label-numeric text-[11px]">Docling</span>
+<span class="px-2.5 py-1 rounded-xl clay-tag text-on-surface-variant font-label-numeric text-[11px]">Ironclad Hook</span>
+</div>
+</div>
+<div class="pt-6 mt-6 border-t border-black/5">
+<div class="flex items-baseline justify-between mb-4">
+<div>
+<span class="font-body-sm text-[11px] uppercase tracking-wider text-on-surface-variant block">Deployment</span>
+<span class="font-label-numeric text-on-surface font-bold text-[14px]">₹1,65,000 / $1,980</span>
+</div>
+<div class="text-right">
+<span class="font-body-sm text-[11px] uppercase tracking-wider text-on-surface-variant block">Retainer</span>
+<span class="font-headline-sm text-headline-sm font-semibold text-on-surface">₹52,000<span class="text-xs font-normal text-on-surface-variant">/mo</span></span>
+</div>
+</div>
+<button class="add-stack-btn w-full py-3.5 rounded-full clay-btn-squeeze font-label-pill text-[13px] tracking-wide flex items-center justify-center gap-2">
+<span class="material-symbols-outlined text-[18px]">add</span>
+<span>Add to Stack</span>
+</button>
+</div>
+</div>
+<!-- Card 11: Clinical Note Summarizer -->
+<div class="solution-card clay-card flex flex-col justify-between p-7" data-category="industry">
+<div>
+<div class="flex items-start justify-between mb-5">
+<div class="relative w-12 h-12 rounded-2xl clay-icon-tile flex items-center justify-center text-white">
+<span class="material-symbols-outlined text-[24px]">medical_services</span>
+</div>
+<div class="flex items-center gap-2">
+<span class="px-2.5 py-1 rounded-xl clay-tag font-label-numeric text-[10px] text-on-surface-variant font-bold tracking-wider uppercase">INDUSTRY</span>
+<span class="font-label-numeric text-[12px] text-on-surface-variant/50 font-semibold">#11</span>
+</div>
+</div>
+<div class="font-label-numeric text-[11px] uppercase tracking-wider text-brand-red font-bold">DEIST-IND-01</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface font-semibold mt-1">Clinical Note Summarizer</h3>
+<p class="font-body-md text-body-md text-on-surface-variant mt-2 leading-relaxed">
+              HIPAA-compliant on-prem extraction of EHR dialogue into ICD-10 diagnostic codes and physician discharge notes.
+            </p>
+<div class="flex flex-wrap gap-1.5 mt-4">
+<span class="px-2.5 py-1 rounded-xl clay-tag text-on-surface-variant font-label-numeric text-[11px]">Med-PaLM 2</span>
+<span class="px-2.5 py-1 rounded-xl clay-tag text-on-surface-variant font-label-numeric text-[11px]">Epic FHIR</span>
+<span class="px-2.5 py-1 rounded-xl clay-tag text-on-surface-variant font-label-numeric text-[11px]">Sovereign Node</span>
+</div>
+</div>
+<div class="pt-6 mt-6 border-t border-black/5">
+<div class="flex items-baseline justify-between mb-4">
+<div>
+<span class="font-body-sm text-[11px] uppercase tracking-wider text-on-surface-variant block">Deployment</span>
+<span class="font-label-numeric text-on-surface font-bold text-[14px]">₹2,40,000 / $2,880</span>
+</div>
+<div class="text-right">
+<span class="font-body-sm text-[11px] uppercase tracking-wider text-on-surface-variant block">Retainer</span>
+<span class="font-headline-sm text-headline-sm font-semibold text-on-surface">₹80,000<span class="text-xs font-normal text-on-surface-variant">/mo</span></span>
+</div>
+</div>
+<button class="add-stack-btn w-full py-3.5 rounded-full clay-btn-squeeze font-label-pill text-[13px] tracking-wide flex items-center justify-center gap-2">
+<span class="material-symbols-outlined text-[18px]">add</span>
+<span>Add to Stack</span>
+</button>
+</div>
+</div>
+<!-- Card 12: Fintech Fraud Copilot -->
+<div class="solution-card clay-card flex flex-col justify-between p-7" data-category="industry">
+<div>
+<div class="flex items-start justify-between mb-5">
+<div class="relative w-12 h-12 rounded-2xl clay-icon-tile flex items-center justify-center text-white">
+<span class="material-symbols-outlined text-[24px]">shield</span>
+<span class="absolute -bottom-0.5 -right-0.5 w-2.5 h-2.5 rounded-full bg-brand-red ring-2 ring-white"></span>
+</div>
+<div class="flex items-center gap-2">
+<span class="px-2.5 py-1 rounded-xl clay-tag font-label-numeric text-[10px] text-on-surface-variant font-bold tracking-wider uppercase">INDUSTRY</span>
+<span class="font-label-numeric text-[12px] text-on-surface-variant/50 font-semibold">#12</span>
+</div>
+</div>
+<div class="font-label-numeric text-[11px] uppercase tracking-wider text-brand-red font-bold">DEIST-IND-02</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface font-semibold mt-1">Fintech Fraud Copilot</h3>
+<p class="font-body-md text-body-md text-on-surface-variant mt-2 leading-relaxed">
+              Graph neural network model correlating cross-border account hops to stop synthetic identities in realtime.
+            </p>
+<div class="flex flex-wrap gap-1.5 mt-4">
+<span class="px-2.5 py-1 rounded-xl clay-tag text-on-surface-variant font-label-numeric text-[11px]">PyTorch Geometric</span>
+<span class="px-2.5 py-1 rounded-xl clay-tag text-on-surface-variant font-label-numeric text-[11px]">Neo4j</span>
+<span class="px-2.5 py-1 rounded-xl clay-tag text-on-surface-variant font-label-numeric text-[11px]">Redis Cluster</span>
+</div>
+</div>
+<div class="pt-6 mt-6 border-t border-black/5">
+<div class="flex items-baseline justify-between mb-4">
+<div>
+<span class="font-body-sm text-[11px] uppercase tracking-wider text-on-surface-variant block">Deployment</span>
+<span class="font-label-numeric text-on-surface font-bold text-[14px]">₹2,80,000 / $3,350</span>
+</div>
+<div class="text-right">
+<span class="font-body-sm text-[11px] uppercase tracking-wider text-on-surface-variant block">Retainer</span>
+<span class="font-headline-sm text-headline-sm font-semibold text-on-surface">₹95,000<span class="text-xs font-normal text-on-surface-variant">/mo</span></span>
+</div>
+</div>
+<button class="add-stack-btn w-full py-3.5 rounded-full clay-btn-squeeze font-label-pill text-[13px] tracking-wide flex items-center justify-center gap-2">
+<span class="material-symbols-outlined text-[18px]">add</span>
+<span>Add to Stack</span>
+</button>
+</div>
+</div>
+<!-- Card 13: Dynamic Merchandiser -->
+<div class="solution-card clay-card flex flex-col justify-between p-7" data-category="industry">
+<div>
+<div class="flex items-start justify-between mb-5">
+<div class="relative w-12 h-12 rounded-2xl clay-icon-tile flex items-center justify-center text-white">
+<span class="material-symbols-outlined text-[24px]">shopping_bag</span>
+</div>
+<div class="flex items-center gap-2">
+<span class="px-2.5 py-1 rounded-xl clay-tag font-label-numeric text-[10px] text-on-surface-variant font-bold tracking-wider uppercase">INDUSTRY</span>
+<span class="font-label-numeric text-[12px] text-on-surface-variant/50 font-semibold">#13</span>
+</div>
+</div>
+<div class="font-label-numeric text-[11px] uppercase tracking-wider text-brand-red font-bold">DEIST-IND-03</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface font-semibold mt-1">Dynamic Merchandiser</h3>
+<p class="font-body-md text-body-md text-on-surface-variant mt-2 leading-relaxed">
+              Personalized catalog storefront reorganizer based on session pathing, inventory margins, and weather cues.
+            </p>
+<div class="flex flex-wrap gap-1.5 mt-4">
+<span class="px-2.5 py-1 rounded-xl clay-tag text-on-surface-variant font-label-numeric text-[11px]">Shopify Plus</span>
+<span class="px-2.5 py-1 rounded-xl clay-tag text-on-surface-variant font-label-numeric text-[11px]">Qdrant Vector</span>
+<span class="px-2.5 py-1 rounded-xl clay-tag text-on-surface-variant font-label-numeric text-[11px]">Edge Workers</span>
+</div>
+</div>
+<div class="pt-6 mt-6 border-t border-black/5">
+<div class="flex items-baseline justify-between mb-4">
+<div>
+<span class="font-body-sm text-[11px] uppercase tracking-wider text-on-surface-variant block">Deployment</span>
+<span class="font-label-numeric text-on-surface font-bold text-[14px]">₹1,35,000 / $1,620</span>
+</div>
+<div class="text-right">
+<span class="font-body-sm text-[11px] uppercase tracking-wider text-on-surface-variant block">Retainer</span>
+<span class="font-headline-sm text-headline-sm font-semibold text-on-surface">₹42,000<span class="text-xs font-normal text-on-surface-variant">/mo</span></span>
+</div>
+</div>
+<button class="add-stack-btn w-full py-3.5 rounded-full clay-btn-squeeze font-label-pill text-[13px] tracking-wide flex items-center justify-center gap-2">
+<span class="material-symbols-outlined text-[18px]">add</span>
+<span>Add to Stack</span>
+</button>
+</div>
+</div>
+<!-- Card 14: Real Estate Comp Engine -->
+<div class="solution-card clay-card flex flex-col justify-between p-7" data-category="industry">
+<div>
+<div class="flex items-start justify-between mb-5">
+<div class="relative w-12 h-12 rounded-2xl clay-icon-tile flex items-center justify-center text-white">
+<span class="material-symbols-outlined text-[24px]">real_estate_agent</span>
+</div>
+<div class="flex items-center gap-2">
+<span class="px-2.5 py-1 rounded-xl clay-tag font-label-numeric text-[10px] text-on-surface-variant font-bold tracking-wider uppercase">INDUSTRY</span>
+<span class="font-label-numeric text-[12px] text-on-surface-variant/50 font-semibold">#14</span>
+</div>
+</div>
+<div class="font-label-numeric text-[11px] uppercase tracking-wider text-brand-red font-bold">DEIST-IND-04</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface font-semibold mt-1">Real Estate Comp Engine</h3>
+<p class="font-body-md text-body-md text-on-surface-variant mt-2 leading-relaxed">
+              Computer-vision appraisal of parcel photography paired with municipal deeds to generate underwriting packets.
+            </p>
+<div class="flex flex-wrap gap-1.5 mt-4">
+<span class="px-2.5 py-1 rounded-xl clay-tag text-on-surface-variant font-label-numeric text-[11px]">CLIP Vision</span>
+<span class="px-2.5 py-1 rounded-xl clay-tag text-on-surface-variant font-label-numeric text-[11px]">GIS ArcPy</span>
+<span class="px-2.5 py-1 rounded-xl clay-tag text-on-surface-variant font-label-numeric text-[11px]">LightGBM</span>
+</div>
+</div>
+<div class="pt-6 mt-6 border-t border-black/5">
+<div class="flex items-baseline justify-between mb-4">
+<div>
+<span class="font-body-sm text-[11px] uppercase tracking-wider text-on-surface-variant block">Deployment</span>
+<span class="font-label-numeric text-on-surface font-bold text-[14px]">₹1,95,000 / $2,350</span>
+</div>
+<div class="text-right">
+<span class="font-body-sm text-[11px] uppercase tracking-wider text-on-surface-variant block">Retainer</span>
+<span class="font-headline-sm text-headline-sm font-semibold text-on-surface">₹62,000<span class="text-xs font-normal text-on-surface-variant">/mo</span></span>
+</div>
+</div>
+<button class="add-stack-btn w-full py-3.5 rounded-full clay-btn-squeeze font-label-pill text-[13px] tracking-wide flex items-center justify-center gap-2">
+<span class="material-symbols-outlined text-[18px]">add</span>
+<span>Add to Stack</span>
+</button>
+</div>
+</div>
+<!-- Card 15: Legal Precedent Search -->
+<div class="solution-card clay-card flex flex-col justify-between p-7" data-category="industry">
+<div>
+<div class="flex items-start justify-between mb-5">
+<div class="relative w-12 h-12 rounded-2xl clay-icon-tile flex items-center justify-center text-white">
+<span class="material-symbols-outlined text-[24px]">policy</span>
+</div>
+<div class="flex items-center gap-2">
+<span class="px-2.5 py-1 rounded-xl clay-tag font-label-numeric text-[10px] text-on-surface-variant font-bold tracking-wider uppercase">INDUSTRY</span>
+<span class="font-label-numeric text-[12px] text-on-surface-variant/50 font-semibold">#15</span>
+</div>
+</div>
+<div class="font-label-numeric text-[11px] uppercase tracking-wider text-brand-red font-bold">DEIST-IND-05</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface font-semibold mt-1">Legal Precedent Search</h3>
+<p class="font-body-md text-body-md text-on-surface-variant mt-2 leading-relaxed">
+              High-precision jurisdictional case law retrieval with strict citation verification and zero hallucination risk.
+            </p>
+<div class="flex flex-wrap gap-1.5 mt-4">
+<span class="px-2.5 py-1 rounded-xl clay-tag text-on-surface-variant font-label-numeric text-[11px]">Cohere Rerank 3</span>
+<span class="px-2.5 py-1 rounded-xl clay-tag text-on-surface-variant font-label-numeric text-[11px]">Milvus 2.4</span>
+<span class="px-2.5 py-1 rounded-xl clay-tag text-on-surface-variant font-label-numeric text-[11px]">Llama 3.1 70B</span>
+</div>
+</div>
+<div class="pt-6 mt-6 border-t border-black/5">
+<div class="flex items-baseline justify-between mb-4">
+<div>
+<span class="font-body-sm text-[11px] uppercase tracking-wider text-on-surface-variant block">Deployment</span>
+<span class="font-label-numeric text-on-surface font-bold text-[14px]">₹1,70,000 / $2,050</span>
+</div>
+<div class="text-right">
+<span class="font-body-sm text-[11px] uppercase tracking-wider text-on-surface-variant block">Retainer</span>
+<span class="font-headline-sm text-headline-sm font-semibold text-on-surface">₹55,000<span class="text-xs font-normal text-on-surface-variant">/mo</span></span>
+</div>
+</div>
+<button class="add-stack-btn w-full py-3.5 rounded-full clay-btn-squeeze font-label-pill text-[13px] tracking-wide flex items-center justify-center gap-2">
+<span class="material-symbols-outlined text-[18px]">add</span>
+<span>Add to Stack</span>
+</button>
+</div>
+</div>
+<!-- Card 16: Enterprise Hybrid RAG -->
+<div class="solution-card clay-card flex flex-col justify-between p-7" data-category="data">
+<div>
+<div class="flex items-start justify-between mb-5">
+<div class="relative w-12 h-12 rounded-2xl clay-icon-tile flex items-center justify-center text-white">
+<span class="material-symbols-outlined text-[24px]">database</span>
+<span class="absolute -bottom-0.5 -right-0.5 w-2.5 h-2.5 rounded-full bg-brand-red ring-2 ring-white"></span>
+</div>
+<div class="flex items-center gap-2">
+<span class="px-2.5 py-1 rounded-xl clay-tag font-label-numeric text-[10px] text-on-surface-variant font-bold tracking-wider uppercase">DATA &amp; CLOUD</span>
+<span class="font-label-numeric text-[12px] text-on-surface-variant/50 font-semibold">#16</span>
+</div>
+</div>
+<div class="font-label-numeric text-[11px] uppercase tracking-wider text-brand-red font-bold">DEIST-DAT-01</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface font-semibold mt-1">Enterprise Hybrid RAG</h3>
+<p class="font-body-md text-body-md text-on-surface-variant mt-2 leading-relaxed">
+              Dense + sparse reciprocal rank fusion query pipeline across millions of PDF, SharePoint, and Confluence nodes.
+            </p>
+<div class="flex flex-wrap gap-1.5 mt-4">
+<span class="px-2.5 py-1 rounded-xl clay-tag text-on-surface-variant font-label-numeric text-[11px]">Milvus Enterprise</span>
+<span class="px-2.5 py-1 rounded-xl clay-tag text-on-surface-variant font-label-numeric text-[11px]">BM25 + BGE</span>
+<span class="px-2.5 py-1 rounded-xl clay-tag text-on-surface-variant font-label-numeric text-[11px]">Ollama Cluster</span>
+</div>
+</div>
+<div class="pt-6 mt-6 border-t border-black/5">
+<div class="flex items-baseline justify-between mb-4">
+<div>
+<span class="font-body-sm text-[11px] uppercase tracking-wider text-on-surface-variant block">Deployment</span>
+<span class="font-label-numeric text-on-surface font-bold text-[14px]">₹1,95,000 / $2,350</span>
+</div>
+<div class="text-right">
+<span class="font-body-sm text-[11px] uppercase tracking-wider text-on-surface-variant block">Retainer</span>
+<span class="font-headline-sm text-headline-sm font-semibold text-on-surface">₹58,000<span class="text-xs font-normal text-on-surface-variant">/mo</span></span>
+</div>
+</div>
+<button class="add-stack-btn w-full py-3.5 rounded-full clay-btn-squeeze font-label-pill text-[13px] tracking-wide flex items-center justify-center gap-2">
+<span class="material-symbols-outlined text-[18px]">add</span>
+<span>Add to Stack</span>
+</button>
+</div>
+</div>
+<!-- Card 17: Unstructured Ingestion Node -->
+<div class="solution-card clay-card flex flex-col justify-between p-7" data-category="data">
+<div>
+<div class="flex items-start justify-between mb-5">
+<div class="relative w-12 h-12 rounded-2xl clay-icon-tile flex items-center justify-center text-white">
+<span class="material-symbols-outlined text-[24px]">account_tree</span>
+</div>
+<div class="flex items-center gap-2">
+<span class="px-2.5 py-1 rounded-xl clay-tag font-label-numeric text-[10px] text-on-surface-variant font-bold tracking-wider uppercase">DATA &amp; CLOUD</span>
+<span class="font-label-numeric text-[12px] text-on-surface-variant/50 font-semibold">#17</span>
+</div>
+</div>
+<div class="font-label-numeric text-[11px] uppercase tracking-wider text-brand-red font-bold">DEIST-DAT-02</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface font-semibold mt-1">Unstructured Ingestion Node</h3>
+<p class="font-body-md text-body-md text-on-surface-variant mt-2 leading-relaxed">
+              High-throughput OCR, layout parsing, and markdown semantic chunking for nested tables and chaotic scans.
+            </p>
+<div class="flex flex-wrap gap-1.5 mt-4">
+<span class="px-2.5 py-1 rounded-xl clay-tag text-on-surface-variant font-label-numeric text-[11px]">Unstructured.io</span>
+<span class="px-2.5 py-1 rounded-xl clay-tag text-on-surface-variant font-label-numeric text-[11px]">Ray Cluster</span>
+<span class="px-2.5 py-1 rounded-xl clay-tag text-on-surface-variant font-label-numeric text-[11px]">AWS S3 Glacier</span>
+</div>
+</div>
+<div class="pt-6 mt-6 border-t border-black/5">
+<div class="flex items-baseline justify-between mb-4">
+<div>
+<span class="font-body-sm text-[11px] uppercase tracking-wider text-on-surface-variant block">Deployment</span>
+<span class="font-label-numeric text-on-surface font-bold text-[14px]">₹1,30,000 / $1,550</span>
+</div>
+<div class="text-right">
+<span class="font-body-sm text-[11px] uppercase tracking-wider text-on-surface-variant block">Retainer</span>
+<span class="font-headline-sm text-headline-sm font-semibold text-on-surface">₹44,000<span class="text-xs font-normal text-on-surface-variant">/mo</span></span>
+</div>
+</div>
+<button class="add-stack-btn w-full py-3.5 rounded-full clay-btn-squeeze font-label-pill text-[13px] tracking-wide flex items-center justify-center gap-2">
+<span class="material-symbols-outlined text-[18px]">add</span>
+<span>Add to Stack</span>
+</button>
+</div>
+</div>
+<!-- Card 18: Sovereign On-Prem LLM -->
+<div class="solution-card clay-card flex flex-col justify-between p-7" data-category="data">
+<div>
+<div class="flex items-start justify-between mb-5">
+<div class="relative w-12 h-12 rounded-2xl clay-icon-tile flex items-center justify-center text-white">
+<span class="material-symbols-outlined text-[24px]">dns</span>
+<span class="absolute -bottom-0.5 -right-0.5 w-2.5 h-2.5 rounded-full bg-brand-red ring-2 ring-white"></span>
+</div>
+<div class="flex items-center gap-2">
+<span class="px-2.5 py-1 rounded-xl clay-tag font-label-numeric text-[10px] text-on-surface-variant font-bold tracking-wider uppercase">DATA &amp; CLOUD</span>
+<span class="font-label-numeric text-[12px] text-on-surface-variant/50 font-semibold">#18</span>
+</div>
+</div>
+<div class="font-label-numeric text-[11px] uppercase tracking-wider text-brand-red font-bold">DEIST-DAT-03</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface font-semibold mt-1">Sovereign On-Prem LLM</h3>
+<p class="font-body-md text-body-md text-on-surface-variant mt-2 leading-relaxed">
+              Air-gapped LLM inference cluster hosted entirely in your VPC with complete zero-data retention compliance.
+            </p>
+<div class="flex flex-wrap gap-1.5 mt-4">
+<span class="px-2.5 py-1 rounded-xl clay-tag text-on-surface-variant font-label-numeric text-[11px]">vLLM</span>
+<span class="px-2.5 py-1 rounded-xl clay-tag text-on-surface-variant font-label-numeric text-[11px]">NVIDIA Triton</span>
+<span class="px-2.5 py-1 rounded-xl clay-tag text-on-surface-variant font-label-numeric text-[11px]">Llama 3.1 8B/70B</span>
+</div>
+</div>
+<div class="pt-6 mt-6 border-t border-black/5">
+<div class="flex items-baseline justify-between mb-4">
+<div>
+<span class="font-body-sm text-[11px] uppercase tracking-wider text-on-surface-variant block">Deployment</span>
+<span class="font-label-numeric text-on-surface font-bold text-[14px]">₹3,20,000 / $3,850</span>
+</div>
+<div class="text-right">
+<span class="font-body-sm text-[11px] uppercase tracking-wider text-on-surface-variant block">Retainer</span>
+<span class="font-headline-sm text-headline-sm font-semibold text-on-surface">₹1,10,000<span class="text-xs font-normal text-on-surface-variant">/mo</span></span>
+</div>
+</div>
+<button class="add-stack-btn w-full py-3.5 rounded-full clay-btn-squeeze font-label-pill text-[13px] tracking-wide flex items-center justify-center gap-2">
+<span class="material-symbols-outlined text-[18px]">add</span>
+<span>Add to Stack</span>
+</button>
+</div>
+</div>
+<!-- Card 19: Guardrails & Eval Matrix -->
+<div class="solution-card clay-card flex flex-col justify-between p-7" data-category="data">
+<div>
+<div class="flex items-start justify-between mb-5">
+<div class="relative w-12 h-12 rounded-2xl clay-icon-tile flex items-center justify-center text-white">
+<span class="material-symbols-outlined text-[24px]">rule</span>
+</div>
+<div class="flex items-center gap-2">
+<span class="px-2.5 py-1 rounded-xl clay-tag font-label-numeric text-[10px] text-on-surface-variant font-bold tracking-wider uppercase">DATA &amp; CLOUD</span>
+<span class="font-label-numeric text-[12px] text-on-surface-variant/50 font-semibold">#19</span>
+</div>
+</div>
+<div class="font-label-numeric text-[11px] uppercase tracking-wider text-brand-red font-bold">DEIST-DAT-04</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface font-semibold mt-1">Guardrails &amp; Eval Matrix</h3>
+<p class="font-body-md text-body-md text-on-surface-variant mt-2 leading-relaxed">
+              Real-time prompt injection blocking, PII masking firewall, and synthetic regression benchmark suite.
+            </p>
+<div class="flex flex-wrap gap-1.5 mt-4">
+<span class="px-2.5 py-1 rounded-xl clay-tag text-on-surface-variant font-label-numeric text-[11px]">Guardrails AI</span>
+<span class="px-2.5 py-1 rounded-xl clay-tag text-on-surface-variant font-label-numeric text-[11px]">Ragas</span>
+<span class="px-2.5 py-1 rounded-xl clay-tag text-on-surface-variant font-label-numeric text-[11px]">OpenTelemetry</span>
+</div>
+</div>
+<div class="pt-6 mt-6 border-t border-black/5">
+<div class="flex items-baseline justify-between mb-4">
+<div>
+<span class="font-body-sm text-[11px] uppercase tracking-wider text-on-surface-variant block">Deployment</span>
+<span class="font-label-numeric text-on-surface font-bold text-[14px]">₹1,15,000 / $1,380</span>
+</div>
+<div class="text-right">
+<span class="font-body-sm text-[11px] uppercase tracking-wider text-on-surface-variant block">Retainer</span>
+<span class="font-headline-sm text-headline-sm font-semibold text-on-surface">₹39,000<span class="text-xs font-normal text-on-surface-variant">/mo</span></span>
+</div>
+</div>
+<button class="add-stack-btn w-full py-3.5 rounded-full clay-btn-squeeze font-label-pill text-[13px] tracking-wide flex items-center justify-center gap-2">
+<span class="material-symbols-outlined text-[18px]">add</span>
+<span>Add to Stack</span>
+</button>
+</div>
+</div>
+<!-- Card 20: Custom SLM Distillation -->
+<div class="solution-card clay-card flex flex-col justify-between p-7" data-category="custom">
+<div>
+<div class="flex items-start justify-between mb-5">
+<div class="relative w-12 h-12 rounded-2xl clay-icon-tile flex items-center justify-center text-white">
+<span class="material-symbols-outlined text-[24px]">memory</span>
+<span class="absolute -bottom-0.5 -right-0.5 w-2.5 h-2.5 rounded-full bg-brand-red ring-2 ring-white"></span>
+</div>
+<div class="flex items-center gap-2">
+<span class="px-2.5 py-1 rounded-xl clay-tag font-label-numeric text-[10px] text-on-surface-variant font-bold tracking-wider uppercase">CUSTOM</span>
+<span class="font-label-numeric text-[12px] text-on-surface-variant/50 font-semibold">#20</span>
+</div>
+</div>
+<div class="font-label-numeric text-[11px] uppercase tracking-wider text-brand-red font-bold">DEIST-CUS-01</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface font-semibold mt-1">Custom SLM Distillation</h3>
+<p class="font-body-md text-body-md text-on-surface-variant mt-2 leading-relaxed">
+              Compression of large frontier models into nimble 1B–3B parameter weights capable of running edge/mobile.
+            </p>
+<div class="flex flex-wrap gap-1.5 mt-4">
+<span class="px-2.5 py-1 rounded-xl clay-tag text-on-surface-variant font-label-numeric text-[11px]">Unsloth</span>
+<span class="px-2.5 py-1 rounded-xl clay-tag text-on-surface-variant font-label-numeric text-[11px]">QLoRA</span>
+<span class="px-2.5 py-1 rounded-xl clay-tag text-on-surface-variant font-label-numeric text-[11px]">ONNX Runtime</span>
+</div>
+</div>
+<div class="pt-6 mt-6 border-t border-black/5">
+<div class="flex items-baseline justify-between mb-4">
+<div>
+<span class="font-body-sm text-[11px] uppercase tracking-wider text-on-surface-variant block">Deployment</span>
+<span class="font-label-numeric text-on-surface font-bold text-[14px]">₹2,60,000 / $3,100</span>
+</div>
+<div class="text-right">
+<span class="font-body-sm text-[11px] uppercase tracking-wider text-on-surface-variant block">Retainer</span>
+<span class="font-headline-sm text-headline-sm font-semibold text-on-surface">₹70,000<span class="text-xs font-normal text-on-surface-variant">/mo</span></span>
+</div>
+</div>
+<button class="add-stack-btn w-full py-3.5 rounded-full clay-btn-squeeze font-label-pill text-[13px] tracking-wide flex items-center justify-center gap-2">
+<span class="material-symbols-outlined text-[18px]">add</span>
+<span>Add to Stack</span>
+</button>
+</div>
+</div>
+<!-- Card 21: Multi-Modal Vision Pipeline -->
+<div class="solution-card clay-card flex flex-col justify-between p-7" data-category="custom">
+<div>
+<div class="flex items-start justify-between mb-5">
+<div class="relative w-12 h-12 rounded-2xl clay-icon-tile flex items-center justify-center text-white">
+<span class="material-symbols-outlined text-[24px]">visibility</span>
+</div>
+<div class="flex items-center gap-2">
+<span class="px-2.5 py-1 rounded-xl clay-tag font-label-numeric text-[10px] text-on-surface-variant font-bold tracking-wider uppercase">CUSTOM</span>
+<span class="font-label-numeric text-[12px] text-on-surface-variant/50 font-semibold">#21</span>
+</div>
+</div>
+<div class="font-label-numeric text-[11px] uppercase tracking-wider text-brand-red font-bold">DEIST-CUS-02</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface font-semibold mt-1">Multi-Modal Vision Pipeline</h3>
+<p class="font-body-md text-body-md text-on-surface-variant mt-2 leading-relaxed">
+              Edge camera defect identification for manufacturing assembly lines running on local industrial compute.
+            </p>
+<div class="flex flex-wrap gap-1.5 mt-4">
+<span class="px-2.5 py-1 rounded-xl clay-tag text-on-surface-variant font-label-numeric text-[11px]">YOLOv10</span>
+<span class="px-2.5 py-1 rounded-xl clay-tag text-on-surface-variant font-label-numeric text-[11px]">TensorRT</span>
+<span class="px-2.5 py-1 rounded-xl clay-tag text-on-surface-variant font-label-numeric text-[11px]">Jetson Orin</span>
+</div>
+</div>
+<div class="pt-6 mt-6 border-t border-black/5">
+<div class="flex items-baseline justify-between mb-4">
+<div>
+<span class="font-body-sm text-[11px] uppercase tracking-wider text-on-surface-variant block">Deployment</span>
+<span class="font-label-numeric text-on-surface font-bold text-[14px]">₹2,30,000 / $2,750</span>
+</div>
+<div class="text-right">
+<span class="font-body-sm text-[11px] uppercase tracking-wider text-on-surface-variant block">Retainer</span>
+<span class="font-headline-sm text-headline-sm font-semibold text-on-surface">₹68,000<span class="text-xs font-normal text-on-surface-variant">/mo</span></span>
+</div>
+</div>
+<button class="add-stack-btn w-full py-3.5 rounded-full clay-btn-squeeze font-label-pill text-[13px] tracking-wide flex items-center justify-center gap-2">
+<span class="material-symbols-outlined text-[18px]">add</span>
+<span>Add to Stack</span>
+</button>
+</div>
+</div>
+<!-- Card 22: High-Frequency Analytics -->
+<div class="solution-card clay-card flex flex-col justify-between p-7" data-category="custom">
+<div>
+<div class="flex items-start justify-between mb-5">
+<div class="relative w-12 h-12 rounded-2xl clay-icon-tile flex items-center justify-center text-white">
+<span class="material-symbols-outlined text-[24px]">query_stats</span>
+</div>
+<div class="flex items-center gap-2">
+<span class="px-2.5 py-1 rounded-xl clay-tag font-label-numeric text-[10px] text-on-surface-variant font-bold tracking-wider uppercase">CUSTOM</span>
+<span class="font-label-numeric text-[12px] text-on-surface-variant/50 font-semibold">#22</span>
+</div>
+</div>
+<div class="font-label-numeric text-[11px] uppercase tracking-wider text-brand-red font-bold">DEIST-CUS-03</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface font-semibold mt-1">High-Frequency Analytics</h3>
+<p class="font-body-md text-body-md text-on-surface-variant mt-2 leading-relaxed">
+              Natural-language to ClickHouse SQL synthesis enabling instant conversational telemetry queries across billions of rows.
+            </p>
+<div class="flex flex-wrap gap-1.5 mt-4">
+<span class="px-2.5 py-1 rounded-xl clay-tag text-on-surface-variant font-label-numeric text-[11px]">ClickHouse</span>
+<span class="px-2.5 py-1 rounded-xl clay-tag text-on-surface-variant font-label-numeric text-[11px]">Vanna.ai</span>
+<span class="px-2.5 py-1 rounded-xl clay-tag text-on-surface-variant font-label-numeric text-[11px]">Apache Arrow</span>
+</div>
+</div>
+<div class="pt-6 mt-6 border-t border-black/5">
+<div class="flex items-baseline justify-between mb-4">
+<div>
+<span class="font-body-sm text-[11px] uppercase tracking-wider text-on-surface-variant block">Deployment</span>
+<span class="font-label-numeric text-on-surface font-bold text-[14px]">₹1,85,000 / $2,200</span>
+</div>
+<div class="text-right">
+<span class="font-body-sm text-[11px] uppercase tracking-wider text-on-surface-variant block">Retainer</span>
+<span class="font-headline-sm text-headline-sm font-semibold text-on-surface">₹54,000<span class="text-xs font-normal text-on-surface-variant">/mo</span></span>
+</div>
+</div>
+<button class="add-stack-btn w-full py-3.5 rounded-full clay-btn-squeeze font-label-pill text-[13px] tracking-wide flex items-center justify-center gap-2">
+<span class="material-symbols-outlined text-[18px]">add</span>
+<span>Add to Stack</span>
+</button>
+</div>
+</div>
+<!-- Card 23: Custom AI Sprint Spike (Obsidian Bespoke Clay Slab) -->
+<div class="solution-card clay-obsidian flex flex-col justify-between p-7 text-white" data-category="custom">
+<div>
+<div class="flex items-start justify-between mb-5">
+<div class="relative w-12 h-12 rounded-2xl bg-white text-on-surface flex items-center justify-center shadow-lg">
+<span class="material-symbols-outlined text-[24px]">terminal</span>
+<span class="absolute -bottom-0.5 -right-0.5 w-2.5 h-2.5 rounded-full bg-brand-red ring-2 ring-white"></span>
+</div>
+<div class="flex items-center gap-2">
+<span class="px-2.5 py-1 rounded-xl bg-white/10 backdrop-blur-md font-label-numeric text-[10px] text-white font-bold tracking-wider uppercase border border-white/10">BESPOKE</span>
+<span class="font-label-numeric text-[12px] text-white/50 font-semibold">#23</span>
+</div>
+</div>
+<div class="font-label-numeric text-[11px] uppercase tracking-wider text-orange-400 font-bold">DEIST-CUS-04</div>
+<h3 class="font-headline-sm text-headline-sm text-white font-semibold mt-1">Custom Sprint Spike</h3>
+<p class="font-body-md text-body-md text-white/75 mt-2 leading-relaxed">
+              Dedicated 10-day research &amp; prototype spike for unique architectural hurdles, zero-day integrations, or hardware.
+            </p>
+<div class="flex flex-wrap gap-1.5 mt-4">
+<span class="px-2.5 py-1 rounded-xl bg-white/10 text-white font-label-numeric text-[11px] border border-white/10">Staff Engineers</span>
+<span class="px-2.5 py-1 rounded-xl bg-white/10 text-white font-label-numeric text-[11px] border border-white/10">Dedicated GPU Farm</span>
+<span class="px-2.5 py-1 rounded-xl bg-white/10 text-white font-label-numeric text-[11px] border border-white/10">NDA Sovereign</span>
+</div>
+</div>
+<div class="pt-6 mt-6 border-t border-white/10">
+<div class="flex items-baseline justify-between mb-4">
+<div>
+<span class="font-body-sm text-[11px] uppercase tracking-wider text-white/60 block">Scope Sizing</span>
+<span class="font-label-numeric text-white font-bold text-[14px]">10 Business Days</span>
+</div>
+<div class="text-right">
+<span class="font-body-sm text-[11px] uppercase tracking-wider text-white/60 block">Flat Rate</span>
+<span class="font-headline-sm text-headline-sm font-semibold text-white">₹3,50,000<span class="text-xs font-normal text-white/60"> / $4.2k</span></span>
+</div>
+</div>
+<button class="add-stack-btn w-full py-3.5 rounded-full clay-obsidian-btn font-label-pill text-[13px] font-semibold tracking-wide flex items-center justify-center gap-2">
+<span class="material-symbols-outlined text-[18px] text-brand-red">bolt</span>
+<span>Book Sprint Advisory</span>
+</button>
+</div>
+</div>
+</div>
+<!-- Bottom Enterprise Advisory Spike Banner -->
+<section class="w-full mt-16 p-8 lg:p-12 clay-card">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
+<div class="lg:col-span-8 space-y-3.5">
+<div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full clay-tag text-on-surface font-label-numeric text-[12px] font-semibold">
+<span class="w-2 h-2 rounded-full bg-brand-red animate-pulse"></span>
+              Enterprise Architecture Review
+            </div>
+<h2 class="font-headline-md text-headline-md text-on-surface font-semibold tracking-tight">
+              Need a multi-agent topology not listed in the catalog?
+            </h2>
+<p class="font-body-md text-body-md text-on-surface-variant max-w-2xl leading-relaxed">
+              Our senior AI systems architects conduct comprehensive 45-minute technical audits. We inspect data residency, evaluate token cost models, and outline zero-trust migration pathways.
+            </p>
+</div>
+<div class="lg:col-span-4 flex flex-col sm:flex-row lg:flex-col gap-3 justify-end">
+<a class="inline-flex items-center justify-center gap-2.5 px-8 py-4 rounded-full clay-btn-squeeze font-label-pill text-[13px] tracking-wide" data-path="contact" href="contact.html">
+<span class="material-symbols-outlined text-[20px]">calendar_month</span>
+<span>Schedule Architecture Call</span>
+</a>
+<div class="flex items-center justify-center gap-2 text-on-surface-variant font-body-sm text-[12px] pt-1">
+<span class="material-symbols-outlined text-[16px] text-brand-red">verified_user</span>
+              SOC-2 &amp; ISO 27001 Certified Advisory
+            </div>
+</div>
+</div>
+</section>
+</div>
+<script>
+      (function() {
+        const searchInput = document.getElementById('catalog-search');
+        const filterTabs = document.querySelectorAll('.filter-tab');
+        const cards = document.querySelectorAll('.solution-card');
+        const resultsCount = document.getElementById('results-count');
+
+        let currentFilter = 'all';
+
+        function filterCatalog() {
+          const query = (searchInput ? searchInput.value : '').toLowerCase().trim();
+          let visibleCount = 0;
+
+          cards.forEach(card => {
+            const category = card.getAttribute('data-category');
+            const textContent = card.innerText.toLowerCase();
+
+            const matchesFilter = (currentFilter === 'all' || category === currentFilter);
+            const matchesQuery = query === '' || textContent.includes(query);
+
+            if (matchesFilter && matchesQuery) {
+              card.style.display = 'flex';
+              visibleCount++;
+            } else {
+              card.style.display = 'none';
+            }
+          });
+
+          if (resultsCount) {
+            resultsCount.textContent = `Showing ${visibleCount} Modules`;
+          }
+        }
+
+        if (filterTabs) {
+          filterTabs.forEach(tab => {
+            tab.addEventListener('click', function() {
+              filterTabs.forEach(t => {
+                t.classList.remove('clay-pill-active');
+                t.classList.add('clay-pill-idle');
+                const dot = t.querySelector('span.rounded-full');
+                if (dot && dot.classList.contains('bg-brand-red')) {
+                  dot.remove();
+                }
+              });
+
+              this.classList.remove('clay-pill-idle');
+              this.classList.add('clay-pill-active');
+
+              currentFilter = this.getAttribute('data-category');
+              filterCatalog();
+            });
+          });
+        }
+
+        if (searchInput) {
+          searchInput.addEventListener('input', filterCatalog);
+        }
+
+        // Interactive button micro-state for "+ Add to Stack"
+        const addBtns = document.querySelectorAll('.add-stack-btn');
+        addBtns.forEach(btn => {
+          btn.addEventListener('click', function(e) {
+            e.preventDefault();
+            const span = this.querySelector('span:last-child');
+            const icon = this.querySelector('.material-symbols-outlined');
+            
+            if (span && !span.innerText.includes('In Stack')) {
+              span.innerText = 'Added to Stack';
+              if (icon) icon.innerText = 'check';
+              this.classList.add('opacity-90');
+              setTimeout(() => {
+                span.innerText = 'In Stack';
+              }, 1200);
+            }
+          });
+        });
+
+        // Keyboard shortcut CMD+K
+        window.addEventListener('keydown', (e) => {
+          if ((e.metaKey || e.ctrlKey) && e.key === 'k') {
+            e.preventDefault();
+            if (searchInput) {
+              searchInput.focus();
+            }
+          }
+        });
+      })();
+    </script>
+</main>
+<!-- Claymorphic Footer -->
+<footer class="w-full bg-[#E5E1D8] mt-24 py-16 border-t border-black/5">
+<div class="max-w-[1280px] mx-auto px-6">
+<div class="p-10 lg:p-12 rounded-[24px] clay-card mb-12">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-12">
+<div class="lg:col-span-4 flex flex-col justify-between">
+<div class="space-y-4">
+<div class="flex items-center gap-3">
+<div class="relative flex items-center justify-center w-10 h-10 rounded-2xl clay-icon-tile text-white">
+<span class="font-headline-sm text-headline-sm font-semibold tracking-tighter">D</span>
+<span class="absolute -bottom-0.5 -right-0.5 w-2.5 h-2.5 rounded-full bg-brand-red ring-2 ring-white"></span>
+</div>
+<span class="font-headline-sm text-headline-sm text-on-surface font-semibold">Deist Technologies</span>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+                Automate Smarter. Scale Faster. Architectural computational pipelines and sovereign AI workflows engineered for modern enterprises.
+              </p>
+</div>
+<div class="mt-8">
+<div class="inline-flex items-center gap-2 px-4 py-2 rounded-full clay-tag text-on-surface font-label-numeric text-[12px] font-medium">
+<span class="w-2 h-2 rounded-full bg-emerald-500 animate-pulse"></span>
+                All systems operational
+              </div>
+</div>
+</div>
+<div class="lg:col-span-8 grid grid-cols-2 md:grid-cols-4 gap-8">
+<div>
+<h4 class="font-headline-sm text-headline-sm text-on-surface font-semibold mb-4 text-[16px] leading-[22px]">Architecture &amp; AI</h4>
+<ul class="space-y-2.5">
+<li class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface cursor-pointer transition-colors">Core LLMs</li>
+<li class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface cursor-pointer transition-colors">Vector Pipelines</li>
+<li class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface cursor-pointer transition-colors">Agentic Meshes</li>
+<li class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface cursor-pointer transition-colors">Compute Nodes</li>
+</ul>
+</div>
+<div>
+<h4 class="font-headline-sm text-headline-sm text-on-surface font-semibold mb-4 text-[16px] leading-[22px]">Solutions</h4>
+<ul class="space-y-2.5">
+<li class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface cursor-pointer transition-colors">Ops Automation</li>
+<li class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface cursor-pointer transition-colors">Voice Synthesizers</li>
+<li class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface cursor-pointer transition-colors">Data ETL Engines</li>
+<li class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface cursor-pointer transition-colors">Custom Models</li>
+</ul>
+</div>
+<div>
+<h4 class="font-headline-sm text-headline-sm text-on-surface font-semibold mb-4 text-[16px] leading-[22px]">Agency &amp; Growth</h4>
+<ul class="space-y-2.5">
+<li class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface cursor-pointer transition-colors">Organic Engine</li>
+<li class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface cursor-pointer transition-colors">Social Syndication</li>
+<li class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface cursor-pointer transition-colors">Lead Workflows</li>
+<li class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface cursor-pointer transition-colors">Client Portal</li>
+</ul>
+</div>
+<div>
+<h4 class="font-headline-sm text-headline-sm text-on-surface font-semibold mb-4 text-[16px] leading-[22px]">Company &amp; Trust</h4>
+<ul class="space-y-2.5">
+<li class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface cursor-pointer transition-colors">About Us</li>
+<li class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface cursor-pointer transition-colors">Security &amp; SLA</li>
+<li class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface cursor-pointer transition-colors">Documentation</li>
+<li class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface cursor-pointer transition-colors">Contact Team</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div class="flex flex-col md:flex-row items-center justify-between gap-4 text-on-surface-variant font-body-sm text-body-sm px-4">
+<p>© 2025 Deist Technologies Inc. All rights reserved.</p>
+<div class="flex items-center gap-6">
+<a class="hover:text-on-surface transition-colors" data-path="privacy-policy" href="#privacy-policy">Privacy Policy</a>
+<a class="hover:text-on-surface transition-colors" data-path="terms-of-service" href="#terms-of-service">Terms of Service</a>
+<a class="hover:text-on-surface transition-colors" data-path="security-protocols" href="#security-protocols">Security Protocols</a>
+</div>
+</div>
+</div>
+</footer>
+
+<script>
+  (function initGlobalNavigation() {
+    const btn = document.getElementById('mobile-menu-btn');
+    const drawer = document.getElementById('mobile-drawer');
+    if (btn && drawer) {
+      btn.addEventListener('click', (e) => {
+        e.stopPropagation();
+        drawer.classList.toggle('hidden');
+        const icon = btn.querySelector('.material-symbols-outlined');
+        if (icon) {
+          icon.textContent = drawer.classList.contains('hidden') ? 'menu' : 'close';
+        }
+      });
+      document.addEventListener('click', (e) => {
+        if (!drawer.contains(e.target) && !btn.contains(e.target) && !drawer.classList.contains('hidden')) {
+          drawer.classList.add('hidden');
+          const icon = btn.querySelector('.material-symbols-outlined');
+          if (icon) icon.textContent = 'menu';
+        }
+      });
+    }
+  })();
+</script>
+
+  <!-- Motion & Smooth Scroll Dependencies -->
+  <script src="vendor/lenis.min.js"></script>
+  <script src="vendor/gsap.min.js"></script>
+  <script src="vendor/ScrollTrigger.min.js"></script>
+  <script src="scripts/motion.js"></script>
+  <script src="scripts/deist-app.js"></script>
+</body></html>
